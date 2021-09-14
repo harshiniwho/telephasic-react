@@ -12,20 +12,14 @@ function App() {
 	<div className="homepage is-preload">
 		<div id="page-wrapper">
 				<div id="header-wrapper">
-            <Header />
-						<Jumbotron />
+					<Header />
+					<Jumbotron />
 				</div>
 				<Feature />
 				<Promo />
 				<Portfolio />
         <Footer />
 		</div>
-			<script src="./scripts/jquery.min.js"></script>
-			<script src="./scripts/jquery.dropotron.min.js"></script>
-			<script src="./scripts/browser.min.js"></script>
-			<script src="./scripts/breakpoints.min.js"></script>
-			<script src="./scripts/util.js"></script>
-			<script src="./scripts/main.js"></script>
     </div>
   );
 }
